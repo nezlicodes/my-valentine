@@ -1,0 +1,36 @@
+body > * {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    background-color: rgb(253, 221, 221);}
+
+img{
+    margin-bottom: 32px;
+}
+.flex{
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+
+button#no_button{
+    position: absolute;
+    left: 100px;
+}
+
+button#yes_button:hover{
+    content: 'dew';
+}
+
+button{
+    background-color: white;
+    border: 0;
+    padding: 8px;
+    width: 80px;
+}
+.items-center{align-items: center;}
