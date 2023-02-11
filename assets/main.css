@@ -23,9 +23,6 @@ button#no_button{
     left: 100px;
 }
 
-button#yes_button:hover{
-    content: 'dew';
-}
 
 button{
     background-color: white;
