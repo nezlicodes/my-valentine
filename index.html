@@ -7,11 +7,13 @@
     <title>Will you be my Valentine</title>
   </head>
   <body>
-    <img src="./assets/giphy.gif" alt="" />
+    <div class="content">
+      <img src="./assets/giphy.gif" alt="" />
 
-    <div class="flex gap-2 items-center">
-      <button id="yes_button">Yes</button>
-      <button id="no_button">No</button>
+      <div class="flex gap-2 items-center">
+        <button id="yes_button">Yes</button>
+        <button id="no_button">No</button>
+      </div>
     </div>
     <script
       async
@@ -21,8 +23,8 @@
       let no = document.getElementById("no_button");
       let yes = document.getElementById("yes_button");
       no.addEventListener("mouseover", () => {
-        no.style.top = Math.random() * 95 + "%";
-        no.style.left = Math.random() * 95 + "%";
+        no.style.top = Math.random() * 90 + "%";
+        no.style.left = Math.random() * 90 + "%";
       });
 
       yes.addEventListener("mouseover", () => {
@@ -32,19 +34,16 @@
         yes.innerText = "Yes";
       });
       no.addEventListener("click", () => {
-      no.innerText = 'Yes'
-      no.style.background = '#fc5a8d'
-      no.style.color = 'white'
-      
+        no.style.top = Math.random() * 99 + "%";
+        no.style.left = Math.random() * 99 + "%";
       });
       no.addEventListener("mouseleave", () => {
-      no.innerText = 'No'
-      no.style.background = 'white'
-      no.style.color = 'black'
-      
+        no.innerText = "No";
+        no.style.background = "white";
+        no.style.color = "black";
       });
       yes.addEventListener("click", () => {
-        alert("Oh 🥰🥹");
+        alert("Ohhh jtm 🥰🥹");
       });
 
       window.dataLayer = window.dataLayer || [];
